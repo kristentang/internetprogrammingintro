@@ -5,4 +5,4 @@ Professor Michael Lindstrom\
 A collection of class assignments and projects for Introduction to Programming for the Internet\ 
 September - December 2018
 
-<a href = "http://www.pic.ucla.edu/~kristentang/">
+<a href = "http://www.pic.ucla.edu/~kristentang/">http://www.pic.ucla.edu/~kristentang/</a>
