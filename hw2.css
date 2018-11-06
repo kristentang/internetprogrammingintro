@@ -1,0 +1,86 @@
+body {
+  background-color: #D3E3EA;
+  font-family: arial, sans-serif;
+  margin: 30px;
+}
+
+/* Heading Properties */
+
+h1 {
+  font-size: 2.5em;
+  color: #4F5D75;
+  text-align: center;
+  font-family: georgia, serif;
+}
+
+/* Table Properties  */
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  width: 350px;
+  margin-right: 20px;
+  float: left;
+}
+
+td {
+  padding: 8px;
+}
+
+/* Text Properties */
+
+article > p {
+  text-indent: 5%;
+}
+
+/* Image Properties */
+
+figure { /* section contains 3 images  */
+  float: right;
+  width: 33%;
+  padding: 15px;
+  margin-bottom: -300px;
+}
+
+img{
+  width: 85%;
+  border: 1px solid black;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  float: right;
+  display: inline-block;
+}
+
+#imgOne {
+  z-index: 3;
+}
+
+#imgTwo {
+  z-index: 2;
+  left: -6%;
+  top: -150px;
+}
+
+#imgThree {
+  z-index: 1;
+  left: -10%;
+  top: -325px;
+}
+
+#imgOne:hover, #imgTwo:hover, #imgThree:hover { /* Bring photo to front */
+  border: 4px solid #4F5D75;
+  position: relative;
+  z-index: 4;
+}
+
+/* Form Properties */
+
+form p {
+  background-color: #ABB1C9;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #4F5D75;
+}
