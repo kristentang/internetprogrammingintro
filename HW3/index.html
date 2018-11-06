@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <title>Homework 3</title>
+  <meta charset = "UTF-8">
+  <link rel = "stylesheet" type = "text/css" href = "calculator.css">
+  <script src="calculator.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <h1>Simple Calculator</h1>
+    <form>
+      <p id = "inputOne">
+        <label for="valueOne">First Value: </label>
+        <input type="text" name="valueOne" id="valueOne" />
+      </p>
+      <p id = "operations">
+        <input type = "radio" id = "add" value = "add" name = "operation">
+        <label for = "add">+</label>
+        <br>
+        <input type = "radio" id = "subtract" value = "subtract" name = "operation">
+        <label for = "subtract">-</label>
+        <br>
+        <input type = "radio" id = "multiply" value = "multiply" name = "operation">
+        <label for = "multiply">*</label>
+        <br>
+        <input type = "radio" id = "divide" value = "divide" name = "operation">
+        <label for = "divide">&divide;</label>
+      </p>
+      <p id = inputTwo>
+        <label for="valueTwo">Second Value: </label>
+        <input type="text" name="valueTwo" id="valueTwo" />
+      </p>
+      <input id = "button" type = "button" value = "Submit" onclick="calculate()"/>
+    </form>
+    <p id = "result">
+      Result:&nbsp;
+    </p>
+  </main>
+
+  <footer>
+    <small>
+      &copy; Kristen Tang<br>
+      Last updated on October 28, 2018
+    </small>
+  </footer>
+
+</body>
+
+</html>
